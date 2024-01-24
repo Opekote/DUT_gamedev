@@ -5,10 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="41f25deb-bbc6-4c66-8039-93a25e128a26" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../Prefab/Door.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/../Prefab/Door.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Player1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Player1.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TriggerEnterT.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TriggerEnterT.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TextMesh Pro/Fonts/Disket-Mono-Bold.ttf.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../TextMesh Pro/Fonts/Disket-Mono-Bold.ttf.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Scenes/CastleRoom.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../Scenes/CastleRoom.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Scenes/Levels 1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../Scenes/Levels 1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Scenes/Menu/Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../Scenes/Menu/Menu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Scenes/Prison.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../Scenes/Prison.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Scripts.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Scripts.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CameraController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CameraController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MainMenu.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,16 +21,16 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Bandit_1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Boss.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/CameraController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CameraController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/CollisionHeal.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/GroundCheck.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/HP_Player.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/LiftController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MainMenu.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Paralax.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Player1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Player1.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Player_Attak.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/TriggerEnterT.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TriggerEnterT.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/VectorValue.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/dialog.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -70,6 +73,7 @@
       <workItem from="1704933224500" duration="2962000" />
       <workItem from="1706035932428" duration="7515000" />
       <workItem from="1706056551044" duration="4582000" />
+      <workItem from="1706072499163" duration="661000" />
     </task>
     <servers />
   </component>
