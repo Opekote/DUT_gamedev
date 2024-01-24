@@ -3,8 +3,8 @@ using UnityEngine.SceneManagement;
 
 public class TriggerEnterT : MonoBehaviour
 {
-    public Animator CaveWarning;
-    public int LevelToLoad;
+    private Animator CaveWarning;
+    public string LevelToLoad;
     [SerializeField] Collider2D Player;
 
     private void OnTriggerEnter2D(Collider2D otherCollider)

@@ -18,11 +18,16 @@ public class Player1 : MonoBehaviour
     GameObject HP;
     public Image hp;
     bool jump;
+    
+    public GameObject GameOverMenuUI;
+
 
 void Start()
 {
     animator.SetBool("Jamp",true);
      currentHealth = maxHealth;
+     Cursor.visible = false;
+
 }
     void Update()
     {
@@ -123,7 +128,7 @@ public void  SetHealth (int bonusHealth)
 
     public void Die()
     {
-        Debug.Log("Enemy died!");
+        // Debug.Log("Enemy died!");
         animator.SetTrigger("die");
        var rb = GetComponent<Rigidbody2D>();
        rb.constraints = RigidbodyConstraints2D.FreezeAll; 
@@ -133,6 +138,15 @@ public void  SetHealth (int bonusHealth)
     }
     public void End()
     {
-        SceneManager.LoadScene("Menu");
+        GameOverMenuUI.SetActive(true);
+        Time.timeScale = 0f;
+        AudioSource cameraAudioSource = Camera.main.GetComponent<AudioSource>();
+        if (cameraAudioSource != null)
+        {
+            cameraAudioSource.Stop();
+        }
+        CameraController.GameIsPaused = true;
+        // SceneManager.LoadScene("Menu");
+        Cursor.visible = true;
     }
 }
